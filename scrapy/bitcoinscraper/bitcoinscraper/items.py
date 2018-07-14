@@ -8,5 +8,7 @@
 import scrapy
 
 class BitcoinscraperItem(scrapy.Item):
-    height = scrapy.Field()
-    foundBy = scrapy.Field()
+    actualHeightOnly = scrapy.Field()
+    minerKnown = scrapy.Field()
+
+    
